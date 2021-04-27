@@ -1,0 +1,9 @@
+image.ipynb
+画像の各情報を抜き出す
+
+collect.ipynb
+画像をファイルに保存
+
+dio_bot.ipynb
+https://festy.jp/web/posts/4763のサイトからdioの名言を抜き出す
+抜き出した文と画像をランダムで送信するbotの作成
