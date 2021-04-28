@@ -1,5 +1,0 @@
-champions.py
-画像の各情報を抜き取る
-
-collect.py
-画像をファイルに保存
