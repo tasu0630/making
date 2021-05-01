@@ -1,2 +1,2 @@
 # The making contains the production.
-#The contents of making and branches are the same.
+#The content.txt represents what each code is doing
