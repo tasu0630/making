@@ -25,3 +25,7 @@
 7回目(pre7.ipynb)
 ・catboostを用いる（2回目に）
 結果： 0.77751(predict7.csv)
+
+8回目(pre8.ipynb)
+・Kerasを用いる（2回目に）
+結果： 0.76076(predict8.csv)
