@@ -1,0 +1,27 @@
+1回目(pre1.ipynb)
+・欠損値を補完、nullが100以上のコラムを削除して予測（決定木）
+結果:0.76794 (predict1.csv)
+
+2回目(pre2.ipynb)
+・グラフから相関関係がありそうな物をピックして予測（決定木）
+結果:0.70574(down) (predict2.csv)
+
+３回目(pre3.ipynb)
+・決定木ではなくロジスティック回帰を用いる（２回目に）
+結果：0.75119 (predict3.csv)
+
+４回目(pre4.ipynb)
+・決定木ではなくロジスティック回帰を用いる（１回目に）
+結果：0.76076 (predict4.csv)
+
+５回目(pre5.ipynb)
+・ランダムフォレストを用いる（2回目に）
+結果： 0.76076(predict5.csv)
+
+6回目(pre6.ipynb)
+・LightGBMを用いる（2回目に）
+結果： 0.77511(predict6.csv)
+
+7回目(pre7.ipynb)
+・catboostを用いる（2回目に）
+結果： 0.77751(predict7.csv)
