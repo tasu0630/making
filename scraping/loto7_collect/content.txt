@@ -2,14 +2,19 @@ loto7.py
 宝くじサイトから1~400回の当選番号を抜き取る
 
 quantity.py
-各値の出た総数
+各値の出た総数(quantity.py)
 
 calculate.py
 個数と割合の表示
 
 statistics.py
-グラフ化
+グラフ化(statistics.png)
 
 code.py
-調べた確率と同じ確率で7桁の数字を出す
+調べた確率と同じ確率で7桁の数字を出す(code.csv)
 
+code2.ipynb
+code1では、数字が被った際に新しく生み出した値が、既に比較した数と被った場合の考慮が抜けてたため改良。(code2.csv)
+
+result.txt
+実際に、codeで出た数字どうりにくじを買った結果。

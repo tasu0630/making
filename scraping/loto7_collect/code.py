@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 from decimal import Decimal
 
-#効率の良い書き方を考える必要あり
 element_list = ["1","2","3","4","5","6","7","8","9","10",
                 "11","12","13","14","15","16","17","18","19","20",
                 "21","22","23","24","25","26","27","28","29","30",
@@ -34,7 +33,6 @@ tmp=[]
 new=[]
 
 #4500(300*5*3枚)
-#数字の被りがあった場合の改善が必要　※被った場合、確率の高い15、に入れ替える
 for i in range(15):
     tmp=(np.random.choice(a=element_list, size=sample_size, p=prob_list))
     
@@ -45,8 +43,9 @@ for i in range(15):
                 break
             #数字の被りがあった場合
             elif tmp[j]==tmp[k]:
-                new=(np.random.choice(a=element_list, size=sample_size, p=prob_list))
-                tmp[j]=new[0]
+                while tmp[j]!=tmp[k]:
+                    new=(np.random.choice(a=element_list, size=sample_size, p=prob_list))
+                    tmp[j]=new[0]
                 
     t_list.append(tmp)
 
