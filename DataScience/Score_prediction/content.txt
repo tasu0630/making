@@ -1,4 +1,17 @@
 ・messi.ipynb
-https://www.whoscored.com/Players/11119/MatchStatistics/Lionel-Messiからサッカー選手のリオネル・メッシ選手のデータ(data.csv)を抽出。攻撃時に関わるデータからゴール数を予測。
+https://www.whoscored.com/Players/11119/MatchStatistics/Lionel-Messiからサッカー選手のリオネル・メッシ選手のデータ(data.csv)を抽出。攻撃時に関わるデータからゴール数を予測。２０２０年９月２日から２０２１年５月２日までのデータを用いる。またリーグ戦のみのデータを用いる。
 ※list assignment index out of rangeが出てくるがデータの抽出は行えているので今回は無視して次回解決策を考える。
 
+Mins: プレー時間
+Goals: 総ゴール数
+Assists: 総アシスト数
+Shots: 総シュート数
+KeyP：キーパスの総数
+Drb: 成功したドリブル
+Fouled: ファールを受けた回数
+Off：オフサイドをとられた
+Disp: プレイヤーが相手にボールを奪われた-ドリブルはしていない
+UnsTch: ボールコントロールにおけるミスでボールを失った回数。
+
+・Randomforestを使って、２０２１年5月２日以降のデータを用いてゴールを予測
+ 
