@@ -15,17 +15,17 @@
 結果：0.76076 (predict4.csv)
 
 ５回目(pre5.ipynb)
-・ランダムフォレストを用いる（2回目に）
+・ランダムフォレストを用いる（1回目に）
 結果： 0.76076(predict5.csv)
 
 6回目(pre6.ipynb)
-・LightGBMを用いる（2回目に）
+・LightGBMを用いる（1回目に）
 結果： 0.77511(predict6.csv)
 
 7回目(pre7.ipynb)
-・catboostを用いる（2回目に）
+・catboostを用いる（1回目に）
 結果： 0.77751(predict7.csv)
 
 8回目(pre8.ipynb)
-・Kerasを用いる（2回目に）
+・Kerasを用いる（1回目に）
 結果： 0.76076(predict8.csv)
