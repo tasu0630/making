@@ -31,7 +31,6 @@ i=1
 
 #要素から取得
 for i,element in enumerate (elements,start=1):
-    #name=element.find_element_by_tag_name("th").get_attribute("textContent")
 
     td[0]=element.find_elements_by_tag_name("td")[1].get_attribute("textContent")
     td[1]=element.find_elements_by_tag_name("td")[2].get_attribute("textContent")

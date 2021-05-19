@@ -1,0 +1,10 @@
+[category_classification]
+各カテゴリーが持つアイテムをまとめる
+
+[item_cnt_year]
+月ごとのアイテムの売れた総量
+
+[shop_id_sort]
+各ショップが販売したアイテム(重複あり) [shop_sale_data.csv]
+
+各ショップが販売したアイテム(重複なし) [shop_id_sort.csv]
