@@ -1,13 +1,14 @@
 目的
 指定されたショップで売れた商品の2015年11月の売上を予測
 
+[例　1_timeにはpredict1.ipynbがある]
 [predict1.ipynb]
 ２０１３年、２０１４年の１１月で売れたアイテムの平均から予測
 score:4.32305
 
 [predict2.ipynb]
 ２０１３年、２０１４年の各ショップで売れたアイテムの平均から予測
-score:2.03745
+score:2.10051
 
 [predict3.ipynb]
 ２０１３年、２０１４年の１１月で売れたアイテムの数から予測
@@ -17,5 +18,17 @@ score:9.60664
 2015年から予測
 score:2.56087
 
+[predict5.ipynb]
+２０１３年、２０１４年で売れたアイテムの数から２０１5年の１１月で売れたアイテムの数をstatsmodelsで予測する。
+予測した数と過去に売れたアイテムの数の比率を合わせた物から予測
+score:3.84072   (score: 9.60664→3.84072)　※predict3.ipynb→predict5.ipynb
+
+[predict6.ipynb]
+２０１３年、２０１４年で売れたアイテムの数から２０１5年の１１月で売れたアイテムの数をstatsmodelsで予測する。
+２０１３年、２０１４年の各ショップで売れたアイテムの平均から予測
+score:1.71564  (score: 2.10051→1.71564)　※predict3.ipynb→predict5.ipynb
+
 [practice.ipynb]
 他の人のcodeを参考にして、勉強する
+https://qiita.com/hcpmiyuki/items/b1783956dee20c6d4700
+https://www.kaggle.com/anguillajaponica/time-series-basics
