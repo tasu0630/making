@@ -34,3 +34,21 @@
 7回目(pre7.ipynb)
 ・Kerasを用いる
 結果:0.31338 (predict7.csv)
+
+新たな技術を学びながらそれを活かす
+参考サイト
+https://taka5hi.hatenablog.com/entry/2019/05/12/121633
+https://www.kaggle.com/blackhurt/be-in-top-13-with-15-lines-of-code
+https://qiita.com/shota-imazeki/items/4a69e4ef2f12e0313495
+https://gotutiyan.hatenablog.com/entry/2020/09/08/122621
+https://www.haya-programming.com/entry/2018/02/22/234011
+
+８回目
+・labelencodeを用いた特徴量の加工
+ランダムフォレストを用いる
+結果:0.14356(predict8.csv)
+
+９回目
+・labelencodeを用いた特徴量の加工
+Xgboostを用いる
+結果:0.12933(predict8.csv)

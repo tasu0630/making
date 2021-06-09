@@ -18,6 +18,13 @@ score:9.60664
 2015年から予測
 score:2.56087
 
+[practice.ipynb]
+他の人のcodeを参考にして、勉強する
+https://qiita.com/hcpmiyuki/items/b1783956dee20c6d4700
+https://www.kaggle.com/anguillajaponica/time-series-basics
+https://qiita.com/hcpmiyuki/items/b1783956dee20c6d4700
+https://qiita.com/Ihmon/items/1a4ca24eb9fc7451da6c
+
 [predict5.ipynb]
 ２０１３年、２０１４年で売れたアイテムの数から２０１5年の１１月で売れたアイテムの数をstatsmodelsで予測する。
 予測した数と過去に売れたアイテムの数の比率を合わせた物から予測
@@ -26,9 +33,12 @@ score:3.84072   (score: 9.60664→3.84072)　※predict3.ipynb→predict5.ipynb
 [predict6.ipynb]
 ２０１３年、２０１４年で売れたアイテムの数から２０１5年の１１月で売れたアイテムの数をstatsmodelsで予測する。
 ２０１３年、２０１４年の各ショップで売れたアイテムの平均から予測
-score:1.71564  (score: 2.10051→1.71564)　※predict3.ipynb→predict5.ipynb
+score:1.71564  (score: 2.10051→1.71564)　※predict2.ipynb→predict6.ipynb
 
-[practice.ipynb]
-他の人のcodeを参考にして、勉強する
-https://qiita.com/hcpmiyuki/items/b1783956dee20c6d4700
-https://www.kaggle.com/anguillajaponica/time-series-basics
+[predict7.ipynb]
+２０１３年、２０１４年で売れたアイテムの数から２０１5年の１１月で売れたアイテムの数をprophetで予測する。
+２０１３年、２０１４年の各ショップで売れたアイテムの平均から予測
+score:1.79492  (score: 2.10051→1.79492)　※predict3.ipynb→predict5.ipynb
+
+
+
