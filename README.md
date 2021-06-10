@@ -1,1 +1,1 @@
-#The content.txt represents what each code is doing
+#content.txtには、それぞれのコードが何をしているかが書かれています。
